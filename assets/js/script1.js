@@ -61,7 +61,7 @@ loadQues();
 function loadScore() {
 	const totalScore = document.getElementById("score")
 	perc = score * 100 / 3
-	totalScore.textContent = `You scored ${score} out of ${Questions.length}, ${Math.trunc(perc)}%`
+	totalScore.textContent = `You scored ${score} out of ${Questions.length}, um percentual de ${Math.trunc(perc)}% . Venha conhecer os cursos da Codi, e desvendar o mundo da programação !!`
 }
 
 
